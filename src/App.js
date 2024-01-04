@@ -1,12 +1,13 @@
 import React from 'react'
 import './App.scss'
-import NavBar from './components/Navbar/NavBar'
+//import NavBar from './components/Navbar/NavBar'
+import Test from './components/Test/Test'
 
 
 function App() {
     return (
         <div>
-            <section>
+            {/* <section>
                 <NavBar />
             </section>
             <section>parallax</section>
@@ -15,7 +16,10 @@ function App() {
             <section>portfolio1</section>
             <section>portfolio2</section>
             <section>portfolio3</section>
-            <section>cont</section>
+            <section>cont</section> */}
+            <section><Test /></section>
+            <section><Test /></section>
+
         </div>
     )
 }
